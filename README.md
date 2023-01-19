@@ -5,6 +5,32 @@
 
 ---
 
+### Acknowledgment:
+
+A huge thank you to Starbucks for providing the data and business problem for this project and a special thank you to Richard Sharp (a Data Scientist at Sarbucks) for teaming with Udacity and making this capstone possible.
+
+### Libraries used in analysis:
+
+- matplotlib==3.5.1
+- numpy==1.22.2
+- pandas==1.4.1
+- seaborn==0.11.2
+- sklearn==0.0
+
+### Files in repository:
+```
+- data
+| - portfolio.json                    # containing offer ids and meta data about each offer (duration, type, etc.)
+| - profile.json                      # demographic data for each customer
+| - transcript.json.zip               # records for transactions, offers received, offers viewed, and offers completed
+
+- Starbucks_Capstone_notebook.ipynb   # jupyter file containing full analysis 
+
+- requirements.txt                    # python libraries used in project
+
+- README.md 📚
+```
+
 ## 👨‍💼🤝👨‍💼 Business Understanding Intro
 Data sets contain simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to mobile app users. An offer can be merely an advertisement for a drink or an offer such as a discount or BOGO (buy one get one free). Some users might not receive any offers during certain weeks. 
 
@@ -495,5 +521,7 @@ After proceeding with general model implementation, below are the visualized res
 # Further Improvements:
 - There is room for more feature engineering within the data. Doing so may likely make the models more robust
 - To find optimal customer demographics, it would be nice to have a few more features of a customer. Thus, experimenting with more data may prove helpful. 
+
+Thank you for reading. If you're interested in a summary blog post of this data, then head over to my [blog](https://medium.com/@RyanMalhotra1234/starbucks-capstone-b8e112a47512)!
 
 That's all for now folks, until next time.
